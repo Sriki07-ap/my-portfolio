@@ -1,0 +1,84 @@
+.boold-let{
+    font-weight: 500;
+    color: rgb(230, 223, 224);
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img{
+    border-radius: 50%;
+}
+.main-div{
+    background-color: darkcyan;
+    font-family: sans-serif;
+    background-size: 180% 180%;
+} 
+.lead{
+    font-weight: 500;
+}  
+ 
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.parent p{
+    padding-left: 0px;
+}
+.parent h3{
+    color: darkcyan;
+    padding-top: 25px;
+    padding-left: 0px;
+}
+ #uniq{
+    color: darkcyan;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.conatct-me{
+    
+    color:darkcyan ;
+    margin-top: 100px;
+    text-align: center;
+    width: 50%;
+    margin-left: 300px;
+
+}
+.click{
+    background-color: rgb(120, 190, 194);
+    border-radius: 5px;
+    border-color:white;
+    color: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+a{
+    color: white;
+    font-size: large;
+    padding: 5px 5px 5px 5px;
+}
+.conatct-me h1{
+    text-size-adjust: large
+    ;
+}
+.footer{
+    background-color:  darkcyan;
+    
+}
+.nav-item{
+    display: grid;
+    gap: 50px;
+}
+@media(max-width:1200px) and (min-width : 600px){
+    .body{
+        transition: all;
+
+    }
+}
